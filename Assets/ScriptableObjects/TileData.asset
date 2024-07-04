@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3ea492e065002b5468422bebdb37c749, type: 3}
+  m_Name: TileData
+  m_EditorClassIdentifier: 
+  identifyInteractableTile: {fileID: 11400000, guid: 68663cac2c67e264188ccacd014b28c6, type: 2}
+  dirtTile: {fileID: 11400000, guid: be6220666d736884dac9f391ec3254b6, type: 2}
+  buildingGridTileObj: {fileID: -8571920667646638171, guid: f8ee1cce4a604bd48a6b84fa7a0b9ef5, type: 3}
+  dirtTileAtDirections:
+  - directionTypes: 00000000
+    tiles:
+    - {fileID: 11400000, guid: 3c29a2418a1c07a4793faee56a784ef5, type: 2}
+  - directionTypes: 0100000003000000
+    tiles:
+    - {fileID: 11400000, guid: 7382964564951454f86b5738d2cc6131, type: 2}
+  - directionTypes: 0100000004000000
+    tiles:
+    - {fileID: 11400000, guid: 60ccf6bf27c9d5347a174813c88682bb, type: 2}
+  - directionTypes: 0200000003000000
+    tiles:
+    - {fileID: 11400000, guid: 5180b47236ce6494ba1756763e5b037e, type: 2}
+  - directionTypes: 0200000004000000
+    tiles:
+    - {fileID: 11400000, guid: c618a2fc83599384a87fca9f6d519dfd, type: 2}
+  - directionTypes: 01000000
+    tiles:
+    - {fileID: 11400000, guid: 5f6c18db13966894c90e2c7b8464196b, type: 2}
+    - {fileID: 11400000, guid: 1c712a7d0ffae21438032be1b0373040, type: 2}
+    - {fileID: 11400000, guid: 1add92b34d2df2d43840a796950bb8e4, type: 2}
+    - {fileID: 11400000, guid: 388dba42325ef6a439ae3f14646d93cb, type: 2}
+  - directionTypes: 02000000
+    tiles:
+    - {fileID: 11400000, guid: 079f45d3256176345b1bb17b8bab4df2, type: 2}
+    - {fileID: 11400000, guid: 526883c0a85ec6647878793c9d4b9cf5, type: 2}
+    - {fileID: 11400000, guid: 6e517b734f57721429ddecf3605e20e6, type: 2}
+  - directionTypes: 03000000
+    tiles:
+    - {fileID: 11400000, guid: a46e3739934d0f84a8e86972c5cb9435, type: 2}
+    - {fileID: 11400000, guid: c740333c668613243bdc4d20ef488450, type: 2}
+    - {fileID: 11400000, guid: 937e3455df9a89540b13db30b433888f, type: 2}
+  - directionTypes: 04000000
+    tiles:
+    - {fileID: 11400000, guid: 008760eecaa702d47a24ec8c68f05da2, type: 2}
+    - {fileID: 11400000, guid: 82e6c3f63971def47bf3497e86fec245, type: 2}
+    - {fileID: 11400000, guid: 2c525ce13adc6484592125dbd53f4372, type: 2}
+  interactableLayer:
+    serializedVersion: 2
+    m_Bits: 128
